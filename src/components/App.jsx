@@ -13,7 +13,7 @@ const App = () => {
   ]);
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
+    const { value } = e.target;
     setFilter(value);
   };
 
